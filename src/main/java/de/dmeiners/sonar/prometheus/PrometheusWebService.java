@@ -37,15 +37,14 @@ public class PrometheusWebService implements WebService {
         //common
         SUPPORTED_METRICS.add(CoreMetrics.ALERT_STATUS);
         SUPPORTED_METRICS.add(CoreMetrics.LAST_COMMIT_DATE);
-        SUPPORTED_METRICS.add(CoreMetrics.OPEN_ISSUES);
-        SUPPORTED_METRICS.add(CoreMetrics.WONT_FIX_ISSUES);
+        // SUPPORTED_METRICS.add(CoreMetrics.OPEN_ISSUES);
+        // SUPPORTED_METRICS.add(CoreMetrics.WONT_FIX_ISSUES);
          
         //test
-        SUPPORTED_METRICS.add(CoreMetrics.TEST_ERRORS);
-        SUPPORTED_METRICS.add(CoreMetrics.TEST_EXECUTION_TIME);
-        SUPPORTED_METRICS.add(CoreMetrics.TEST_FAILURES);
-        SUPPORTED_METRICS.add(CoreMetrics.TEST_SUCCESS_DENSITY);
-         
+        // SUPPORTED_METRICS.add(CoreMetrics.TEST_ERRORS);
+        // SUPPORTED_METRICS.add(CoreMetrics.TEST_EXECUTION_TIME);
+        // SUPPORTED_METRICS.add(CoreMetrics.TEST_FAILURES);
+        // SUPPORTED_METRICS.add(CoreMetrics.TEST_SUCCESS_DENSITY);
 
         SUPPORTED_METRICS.add(CoreMetrics.BUGS);
         SUPPORTED_METRICS.add(CoreMetrics.VULNERABILITIES);
@@ -54,7 +53,6 @@ public class PrometheusWebService implements WebService {
         SUPPORTED_METRICS.add(CoreMetrics.TECHNICAL_DEBT);
         SUPPORTED_METRICS.add(CoreMetrics.DUPLICATED_LINES_DENSITY);
         SUPPORTED_METRICS.add(CoreMetrics.DUPLICATED_LINES);
-
          
         //new code
         SUPPORTED_METRICS.add(CoreMetrics.NEW_BUGS);
@@ -62,10 +60,8 @@ public class PrometheusWebService implements WebService {
         SUPPORTED_METRICS.add(CoreMetrics.NEW_CODE_SMELLS);
         SUPPORTED_METRICS.add(CoreMetrics.NEW_COVERAGE);
         SUPPORTED_METRICS.add(CoreMetrics.NEW_TECHNICAL_DEBT);
-         
         SUPPORTED_METRICS.add(CoreMetrics.NEW_DUPLICATED_LINES);
         SUPPORTED_METRICS.add(CoreMetrics.NEW_DUPLICATED_LINES_DENSITY);
-        
     }
 
     public PrometheusWebService(Configuration configuration) {

@@ -36,8 +36,8 @@
 
 ## Installation
 
-1. Download [latest snapshot release](https://github.com/dmeiners88/sonarqube-prometheus-exporter/releases/tag/v1.0.0-SNAPSHOT-2018-07-04)
-2. Drop `sonar-prometheus-exporter-1.0.0-SNAPSHOT.jar` into `$SONARQUBE_HOME/extensions/plugins`.
+1. Download [latest snapshot release](https://github.com/mkbyme/sonarqube-prometheus-exporter/releases/download/v1.0.1/sonar-prometheus-exporter-1.0.1-SNAPSHOT.jar)
+2. Drop `sonar-prometheus-exporter-1.0.1-SNAPSHOT.jar` into `$SONARQUBE_HOME/extensions/plugins`.
 3. Restart the SonarQube server.
 
 ## Usage
